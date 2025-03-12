@@ -27,6 +27,13 @@ inventario_app/
 |   |   |-- transaction_screen.dart
 |   |   |-- warehouse_screen.dart
 |   |   |-- audit_screen.dart
+|   |   |-- components/              # Componentes reutilizables específicos de las pantallas
+|   |   |   |-- category_list.dart   # Lista de categorías (usada en category_screen)
+|   |   |   |-- product_form.dart    # Formulario de productos (usado en product_screen)
+|   |   |   |-- supplier_form.dart   # Formulario de proveedores (usado en supplier_screen)
+|   |   |   |-- transaction_list.dart # Lista de transacciones (usada en transaction_screen)
+|   |   |   |-- warehouse_list.dart  # Lista de almacenes (usada en warehouse_screen)
+|   |   |   |-- audit_log.dart       # Registro de auditorías (usado en audit_screen)
 |   |
 |   |-- widgets/               # Widgets reutilizables
 |   |   |-- custom_textfield.dart
